@@ -35,4 +35,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_DEPLOY_TO_PAGES_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=brainwave-prod
+          command: pages deploy dist --project-name=brainwave
